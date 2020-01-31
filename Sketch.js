@@ -1,4 +1,3 @@
-setTimeout(function() {
 	let values = [];
 	let i = 0;
 	let j = 0;
@@ -60,4 +59,3 @@ setTimeout(function() {
 	}
 
 	console.log("sketch execution");
-}, 3000);
