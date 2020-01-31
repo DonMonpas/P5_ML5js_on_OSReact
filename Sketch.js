@@ -1,4 +1,3 @@
-setTimeout(function() {
 	let values = [];
 	let i = 0;
 	let j = 0;
@@ -53,11 +52,10 @@ setTimeout(function() {
 	// in the array as the length of the rectangle.
 	function simulateSorting(){
 	  for(let i = 0;i<values.length;i++){
-		stroke(100, 143, 143);
+		stroke('orange');
 		 fill(50);
 		 rect(i , height, 1, -values[i],20);
 	   }
 	}
 
 	console.log("sketch execution");
-}, 3000);
