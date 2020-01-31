@@ -57,3 +57,5 @@ function simulateSorting(){
      rect(i , height, 1, -values[i],20);
    }
 }
+
+console.log("sketch execution");
